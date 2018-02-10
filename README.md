@@ -40,6 +40,6 @@ p.s -this app is in beta version, consist more bugs to fix.
 <h3>Acknowledgements</h3>
 
 
-Based on hani-momanii/SuperNova-Emoji.
+Emoji key Based on hani-momanii/SuperNova-Emoji.
 
 Emojicon is using emojis graphics from emoji-cheat-sheet.com.
