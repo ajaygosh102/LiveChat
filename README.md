@@ -11,3 +11,24 @@ p.s -this app is in beta version, consist more bugs to fix.
 
 <img src="https://github.com/ajaygosh102/LiveChat/blob/master/app/src/main/res/mipmap-xxxhdpi/Screenshot_2018-02-06-15-20-58-331_com.example.ajay.livechat.png" width="400">
 
+
+
+<img src="https://github.com/ajaygosh102/LiveChat/blob/master/app/src/main/res/mipmap-xxxhdpi/Screenshot_2018-02-06-15-21-06-606_com.example.ajay.livechat.png" width="400">
+
+
+
+
+<img src="https://github.com/ajaygosh102/LiveChat/blob/master/app/src/main/res/mipmap-xxxhdpi/Screenshot_2018-02-06-15-21-35-606_com.example.ajay.livechat.png" width="400">
+
+
+
+
+
+<img src="https://github.com/ajaygosh102/LiveChat/blob/master/app/src/main/res/mipmap-xxxhdpi/Screenshot_2018-02-06-15-22-08-185_com.example.ajay.livechat.png" width="400">
+
+
+
+
+
+
+<img src="https://github.com/ajaygosh102/LiveChat/blob/master/app/src/main/res/mipmap-xxxhdpi/WhatsApp%20Image%202018-02-07%20at%202.40.19%20PM.jpeg" width="400">
