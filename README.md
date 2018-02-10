@@ -10,10 +10,4 @@ p.s -this app is in beta version, consist more bugs to fix.
 
 
 
-<div style="display:flex;">
-<img alt="App image" src="LiveChat/app/src/main/res/mipmap-xxxhdpi/Screenshot_2018-02-06-15-20-58-331_com.example.ajay.livechat.png " width="30%">
-<img alt="App image" src="fastlane/metadata/android/en-US/images/phoneScreenshots/app_2.png" width="30%">
-<img alt="App image" src="fastlane/metadata/android/en-US/images/phoneScreenshots/widget.png" width="30%">
-</div>
-
-![Optional Text](LiveChat/app/src/main/res/mipmap-xxxhdpi/Screenshot_2018-02-06-15-20-58-331_com.example.ajay.livechat.png )
+![alt tag](https://github.com/ajaygosh102/LiveChat/blob/master/app/src/main/res/mipmap-xxxhdpi/Screenshot_2018-02-06-15-20-58-331_com.example.ajay.livechat.png)
