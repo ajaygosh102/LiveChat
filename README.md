@@ -13,3 +13,4 @@ p.s -this app is in beta version, consist more bugs to fix.
 ![alt tag](https://github.com/ajaygosh102/LiveChat/blob/master/app/src/main/res/mipmap-xxxhdpi/Screenshot_2018-02-06-15-20-58-331_com.example.ajay.livechat.png | width=10)
 
 
+![](https://github.com/ajaygosh102/LiveChat/blob/master/app/src/main/res/mipmap-xxxhdpi/Screenshot_2018-02-06-15-20-58-331_com.example.ajay.livechat.png | width=100)
