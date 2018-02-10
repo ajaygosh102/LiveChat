@@ -10,4 +10,6 @@ p.s -this app is in beta version, consist more bugs to fix.
 
 
 
-![alt tag](https://github.com/ajaygosh102/LiveChat/blob/master/app/src/main/res/mipmap-xxxhdpi/Screenshot_2018-02-06-15-20-58-331_com.example.ajay.livechat.png) <width="30%">
+![alt tag](https://github.com/ajaygosh102/LiveChat/blob/master/app/src/main/res/mipmap-xxxhdpi/Screenshot_2018-02-06-15-20-58-331_com.example.ajay.livechat.png | width=10)
+
+![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
