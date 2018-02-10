@@ -12,5 +12,7 @@ p.s -this app is in beta version, consist more bugs to fix.
 
 ![test](https://github.com/ajaygosh102/LiveChat/blob/master/app/src/main/res/mipmap-xxxhdpi/Screenshot_2018-02-06-15-20-58-331_com.example.ajay.livechat.png=24x48)
 
+![image](https://github.com/ajaygosh102/LiveChat/blob/master/app/src/main/res/mipmap-xxxhdpi/Screenshot_2018-02-06-15-20-58-331_com.example.ajay.livechat.png = 250x250)
+
 
 ![](https://github.com/ajaygosh102/LiveChat/blob/master/app/src/main/res/mipmap-xxxhdpi/Screenshot_2018-02-06-15-20-58-331_com.example.ajay.livechat.png | width=100)
