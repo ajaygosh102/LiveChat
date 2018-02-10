@@ -6,3 +6,12 @@ This application allows you to send and receive messages in real-time using Fire
 This application implements push notification thanks to Firebase Cloud Messaging service.
 You can  sign in using your Google account.
 p.s -this app is in beta version, consist more bugs to fix.
+
+
+
+
+<div style="display:flex;">
+<img alt="App image" src="app/src/main/res/mipmap-xxxhdpi" width="30%">
+<img alt="App image" src="fastlane/metadata/android/en-US/images/phoneScreenshots/app_2.png" width="30%">
+<img alt="App image" src="fastlane/metadata/android/en-US/images/phoneScreenshots/widget.png" width="30%">
+</div>
