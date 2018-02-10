@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:maxWidth="320dp"
+    android:orientation="vertical"
+
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/chaticon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="right"
+        android:src="@mipmap/ic_google"
+        app:civ_border_overlay="true"
+        app:civ_border_width="1dp" />
+
+
+    <TextView
+        android:id="@+id/usernametext"
+        android:layout_width="60dp"
+        android:layout_height="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="right"
+        android:layout_toStartOf="@+id/chaticon"
+        android:singleLine="false"
+        android:text="hello"
+        android:textAppearance="@style/TextAppearance.Design.Snackbar.Message" />
+
+    <TextView
+        android:maxWidth="250dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/msgtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernametext"
+        android:layout_gravity="right"
+        android:layout_toStartOf="@+id/chaticon"
+        android:background="@drawable/roundchaat"
+        android:singleLine="false"
+        android:text="hello"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/msgtext"
+        android:layout_below="@+id/msgtext"
+        android:layout_gravity="right"
+        android:text="time"
+        android:textAppearance="@style/TextAppearance.Compat.Notification.Time" />
+
+
+</RelativeLayout>

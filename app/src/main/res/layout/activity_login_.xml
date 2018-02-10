@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:id="@+id/relativelayout"
+    style="@style/Theme.AppCompat"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.example.ajay.livechat.login_Activity">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/colorPrimaryDark"
+        app:civ_border_overlay="true"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/Username_TextInputLayout"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="49dp"
+        android:src="@mipmap/chatroom" />
+    <TextView
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ChatRooM"
+        android:fontFamily="@string/dummy_content"
+        android:fontFeatureSettings="@string/dummy_content"
+        android:includeFontPadding="true"
+        android:textAlignment="center"
+        android:layout_below="@id/imageView4"
+        android:textSize="@android:dimen/notification_large_icon_width"
+        android:id="@+id/textView" />
+
+    <android.support.design.widget.TextInputLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColorHint="@color/colorPrimaryDark"
+
+        android:id="@+id/Username_TextInputLayout"
+
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="8dp">
+
+
+        <android.support.v7.widget.AppCompatEditText
+            android:drawableLeft="@mipmap/user"
+
+            android:shadowColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/username_TextField"
+            android:hint="Username"
+            android:inputType="text"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+
+        android:foregroundTint="@color/colorPrimaryDark"
+
+app:passwordToggleEnabled="true"
+        app:counterEnabled="true"
+        app:counterMaxLength="8"
+        app:counterOverflowTextAppearance="@color/colorPrimaryDark"
+        app:counterTextAppearance="@color/red"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/Password_TextInputLayout"
+        android:layout_below="@id/Username_TextInputLayout"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="8dp">
+
+
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_gravity="left"
+            android:drawableStart="@mipmap/lock"
+
+            android:shadowColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Password_TextField"
+            android:hint="Password"
+            android:inputType="textPassword"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:onClick="loginbutton"
+        android:id="@+id/Loginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/Password_TextInputLayout"
+        android:layout_alignStart="@+id/Password_TextInputLayout"
+        android:layout_below="@+id/Password_TextInputLayout"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/rounded_corner"
+        android:text="Login" />
+
+    <CheckBox
+        android:onClick="checkbox"
+        android:id="@id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Loginbutton"
+        android:layout_below="@+id/Loginbutton"
+        android:text="Remember password" />
+
+    <com.google.android.gms.common.SignInButton
+
+        android:id="@+id/sign_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Loginbutton"
+        android:layout_alignStart="@+id/checkbox"
+        android:layout_below="@+id/checkbox"
+        android:background="@drawable/rounded_corner" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sign_in_button"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:text="New User?" />
+
+    <Button
+        android:gravity="center"
+        android:background="@drawable/rounded_corner"
+        android:id="@+id/sign_out_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/sign_in_button"
+        android:text="signout" />
+
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LiveChat</string>
+
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">ChatRooM</string>
+
+    <string name="open_drawer">open_drawer</string>
+    <string name="close_drawer">close_drawer</string>
+
+
+    <string name="about">ChatRoom Messenger is a freeware and cross-platform instant messaging over Firebase service. The application allows the sending of text messages though difrent Groups, as well as video calls, images and other media, documents,comes through in feature versions.</string>
+
+
+    <string name="title_activity_welcomactivity">Welcomactivity</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    android:background="@mipmap/background2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/abouttv"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+
+android:layout_centerHorizontal="true"
+
+        android:layout_centerVertical="true"
+        android:capitalize="sentences"
+        android:focusable="auto"
+        android:focusableInTouchMode="false"
+        android:foregroundGravity="fill"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/about"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title"
+        android:textColor="@android:color/white"
+        android:visibility="visible" />
+</RelativeLayout>
