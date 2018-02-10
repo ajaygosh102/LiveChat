@@ -35,3 +35,11 @@ p.s -this app is in beta version, consist more bugs to fix.
 <img src="https://github.com/ajaygosh102/LiveChat/blob/master/app/src/main/res/mipmap-xxxhdpi/WhatsApp%20Image%202018-02-07%20at%202.40.19%20PM.jpeg" width="270">
 
 </div>
+
+
+<h3>Acknowledgements</h3>
+
+
+Based on hani-momanii/SuperNova-Emoji.
+
+Emojicon is using emojis graphics from emoji-cheat-sheet.com.
